@@ -1,3 +1,20 @@
-.intro {
-  backgroud: url();
+* {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#completed-work {
+  font-size: 16px;
+  text-align: center;
+}
+table {
+  margin: auto;
+}
+table th {
+  background-color: #50BEAF;
+}
+table td, table th {
+  padding: 5px 10px;
+}
+#completed-section {
+  padding: 100px;
 }
