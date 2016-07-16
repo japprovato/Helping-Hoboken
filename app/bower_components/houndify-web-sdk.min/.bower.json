@@ -1,0 +1,7 @@
+{
+  "name": "houndify-web-sdk.min",
+  "main": "index.js",
+  "_source": "/Users/japprovato/Code/VentureHacks/webapp-starter/node_modules/houndify/dist/houndify-web-sdk.min.js",
+  "_target": "*",
+  "_originalSource": "./node_modules/houndify/dist/houndify-web-sdk.min.js"
+}
