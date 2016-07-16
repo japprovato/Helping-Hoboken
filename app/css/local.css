@@ -1,7 +1,6 @@
 * {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
 }
-
 #completed-work {
   font-size: 16px;
   text-align: center;
@@ -19,5 +18,5 @@ table td, table th {
   padding: 100px;
 }
 .intro {
-  backgroud: url(../img/hoboken-street.jpg);
+  background: url(../img/hoboken-street.jpg);
 }
