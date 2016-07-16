@@ -18,3 +18,6 @@ table td, table th {
 #completed-section {
   padding: 100px;
 }
+.intro {
+  backgroud: url(../img/hoboken-street.jpg);
+}

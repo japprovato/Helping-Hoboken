@@ -1,4 +1,4 @@
-var categories = ["Organization", "Description", "Location", "Hours", "Contact", "Date"];
+var categories = ["Date", "Organization", "Location", "Hours", "Contact", "Description"];
 var catNum = categories.length;
 var rowNum = 7;
 
