@@ -38,23 +38,6 @@ table td, table th {
 #post-request textarea {
   color: black;
 }
-.submit {
-  align: center;
-  text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  border-radius: 0;
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
-  background-color: transparent;
-}
-.submit:hover, .submit:focus {
-  border: 1px solid #42DCA3;
-  outline: none;
-  color: black;
-  background-color: #42DCA3;
-
+#plswork {
+  margin-top: 20px;
 }

@@ -61,6 +61,15 @@
                     <li>
                         <a class="page-scroll" href="../index.html#contact">Contact</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="../index.html#started">Getting Started</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../index.html#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../index.html#mapatit">Map</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -72,10 +81,15 @@
     <section id="form-section" class="container content-section text-center">
         <div id="form">
             <div id="post-request" class="col-lg-8 col-lg-offset-2">
+              <h2>Post Request for Volunteer Opportunity</h2>
+              <p>If you would like to post a listing for a volunteer opportunity on our site, please fill out the following form and we will process your request. <br /><br />
+                Please note that it is important to leave a contact name and phone number so that the volunteers can contact you with any questions they might have.</p><br />
               <form id = "requestform">
-                <h2>Post Request for Volunteer Opportunity</h2>
+
                 <p><label>Contact Name: </label>
                 <input type="text" name="contact-name"></p><br>
+                <p><label>Contact Phone Number: </label>
+                <input type="tel" name="contact-phone"></p><br />
                 <p><label>Event Title: </label>
                 <input type="text" name="event-title"></p><br>
                 <p><label>Organization Name: </label>
@@ -89,9 +103,13 @@
                 <p><label>Category: </label>
                 <select name="category">
                   <option value="Animals">Animals</option>
-                  <option value="Races">Races</option>
+                  <option value="Arts/Theater">Arts/Theater</option>
                   <option value="Clean Ups">Clean Up</option>
+                  <option value="Marathons/Races">Races</option>
                   <option value="Shelters">Shelter</option>
+                  <option value="Skill-Based">Skill Based</option>
+                  <option value="Sports">Sports</option>
+                  <option value="Tutor">Tutoring</option>
                   <option value="Other">Other</option>
                 </select></p><br>
                 <p><label>Volunteer Type: </label>
@@ -103,8 +121,10 @@
                 <p><label>Description: </label>
                 <textarea name="description" rows=1 col="20"></textarea></p>
 
-                <button class="btn btn-default btn-lg submit" type="button" onclick="ReplaceForm()">Match me with a volunteer!</button>
               </form>
+              <div id="plswork">
+                <button class="btn btn-default btn-lg submit" type="button" onclick="ReplaceForm()">Match me with a volunteer!</button>
+              </div>
             </div>
             <div id="for_replace" style="display:none;">
               <p>Thanks for your submission! For more information, check out your <a href="dashboard.html">dashboard</a>.</p>
