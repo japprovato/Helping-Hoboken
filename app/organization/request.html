@@ -9,7 +9,7 @@
     <meta name="description" content="Helping Hoboken - Volunteer Matching for the Mile Square City">
     <meta name="author" content="Jordana Approvato and Jenn Cafiero">
 
-    <title>Helping Hoboken | Volunteer Matching for the Mile Square City</title>
+    <title>Post a Volunteer Opportunity | Helping Hoboken</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,10 +69,10 @@
     </nav>
 
     <!-- About Section -->
-    <section id="completed-section" class="container content-section text-center">
-        <div class="row">
+    <section id="form-section" class="container content-section text-center">
+        <div class="form">
             <div id="post-request" class="col-lg-8 col-lg-offset-2">
-              <form>
+              <form id = "requestform">
                 <h2>Post Request for Volunteer Opportunity</h2>
                 <p><label>Contact Name: </label>
                 <input type="text" name="contact-name"></p><br>
@@ -101,10 +101,27 @@
                 <p><label>Number of Volunteers Needed: </label>
                   <input type="number" name="num-needed" min= "1" max="25" value="1"></p><br>
                 <p><label>Description: </label>
-                  <textarea name="description" rows=1 col="20"></textarea></p> 
+                  <textarea name="description" rows=1 col="20"></textarea></p>
+
+                <button type="button" onclick="ReplaceForm()">Match me with a volunteer!</button>
+
+                <div id="for_replace" style="display:none;">
+                  <p>Thanks for your submission! For more information, check out your <a href="dashboard.html">dashboard</a>.</p>
+                </div>
+
+                <script type = "text/javascript">
+                function ReplaceForm() {
+                  var IDofForm = "requestform";
+                  var IDofDivWithForm = "form-section";
+                  var IDforReplacement = "for_replace";
+                  document.getElementById(IDofForm).submit();
+                  document.getElementById(IDofDivWithForm).innerHTML = document.getElementById(IDforReplacement).innerHTML;
+                }
+                </script>
 
 
-                <button type="button" onclick="alert('Your information was successfully submitted.')">Match me with a volunteer!</button>
+
+
               </form>
             </div>
         </div>
