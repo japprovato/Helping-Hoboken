@@ -8,9 +8,6 @@
 table {
   margin: auto;
 }
-table th {
-  background-color: #50BEAF;
-}
 table td, table th {
   padding: 5px 10px;
 }
@@ -40,4 +37,8 @@ table td, table th {
 }
 #plswork {
   margin-top: 20px;
+}
+.fa:hover {
+  color: #42DCA3;
+  cursor: pointer;
 }
