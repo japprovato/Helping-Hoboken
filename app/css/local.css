@@ -20,3 +20,21 @@ table td, table th {
 .intro {
   background: url(../img/hoboken-street.jpg);
 }
+#post-request form {
+  display: table;
+}
+#post-request p {
+  display: table-row;
+  margin: 10px;
+}
+#post-request label {
+  display: table-cell;
+  vertical-align: top;
+}
+#post-request input {
+  color: black;
+  display: table-cell;
+}
+#post-request textarea {
+  color: black;
+}
